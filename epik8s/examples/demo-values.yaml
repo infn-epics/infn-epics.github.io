@@ -1,0 +1,21 @@
+beamline: demo
+namespace: demo
+targetRevision: main
+epicsConfiguration:
+  name: epics-configuration
+  address_list: ""
+  max_array_bytes: "10000000"
+  services: {}
+  iocs:
+    ps01:
+      name: ps01
+      template: ocem
+      devtype: modbusps
+      devgroup: mag
+      iocprefix: DEMO:MAG:OCEM
+      ps:
+        current: {max: 100}
+        voltage: {max: 16}
+      devices:
+        - name: PS01
+          ip: 192.0.2.10

@@ -7,8 +7,11 @@ It introduces the INFN-A EPICS controls network, the EPIK8S architecture, select
 public repositories, the facilities discussed in the 2026 JINST paper, and the
 connection to ARGUS Knowledge Hub. It also gathers courses, presentations, and
 documentation for the EPICS network. The site is static and bilingual (English and
-Italian). Text and translated links are in `script.js`; the page and styles are in
-`index.html` and `styles.css`.
+Italian). The home page is in `index.html`, `script.js`, and `styles.css`.
+`epik8s/` contains the bilingual quick start, architecture, and manual. The
+downloadable `epik8s/examples/demo-values.yaml` was checked with `helm template`
+against the current `epik8s-chart`; it is a non-deployable example with a
+documentation-only device address.
 
 Sources for the technical descriptions:
 
@@ -22,7 +25,8 @@ Sources for the technical descriptions:
 - [EPIK8S at the 2025 EPICS Collaboration Meeting](https://indico.stfc.ac.uk/event/1233/contributions/8395/)
 - [EPIK8S and ARGUS at the 2026 CSN5 Computing Conference](https://agenda.infn.it/event/52618/contributions/302965/)
 
-Visual marks: `assets/epics-official.svg` is the official EPICS logo from
+Visual marks: `assets/rete-epics.png` is the network emblem supplied by the
+site maintainer. `assets/epics-official.svg` is the official EPICS logo from
 [epics-controls.org](https://epics-controls.org/wp-content/uploads/2018/07/EPICS_black_blue_logo_rgb_crop_web_v03.svg).
 `assets/epik8s-hang-transparent.png` is a preliminary EPIK8S mark from the
 [INFN Confluence project page](https://confluence.infn.it/spaces/LDCG/pages/250085378/EPIK8S).

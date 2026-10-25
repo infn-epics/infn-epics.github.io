@@ -47,3 +47,15 @@
 .talk-footer span:last-child{color:var(--accent);font-size:1.2rem}
 @media(max-width:900px){.talks-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:620px){.talks-section{margin-top:48px}.talks-grid{grid-template-columns:1fr}.talk-card{min-height:230px}}
+
+/* EPICS network emblem and equation */
+.brand-emblem{display:block;width:43px;height:43px;object-fit:cover;border-radius:10px;box-shadow:0 0 0 1px #a6eabe88}
+.mission-grid{grid-template-columns:170px minmax(0,1fr) minmax(0,1fr);gap:40px;align-items:start}
+.network-emblem{display:block;width:170px;height:170px;border-radius:20px;box-shadow:0 16px 36px #12324c24;transition:transform .2s}
+.network-emblem:hover{transform:translateY(-3px)}
+.network-emblem img{display:block;width:100%;height:100%;object-fit:cover;border-radius:20px}
+.identity-k8s{color:#0d3441;font:800 2.2rem/1 Manrope,Arial,sans-serif;letter-spacing:-.07em}
+.epik8s-doc-actions{display:flex;align-items:center;gap:24px;flex-wrap:wrap;margin-top:24px}
+@media(max-width:1050px){.mission-grid{grid-template-columns:135px 1fr 1fr;gap:24px}.network-emblem{width:135px;height:135px}}
+@media(max-width:850px){.mission-grid{grid-template-columns:110px 1fr;gap:22px}.network-emblem{width:110px;height:110px}.mission-copy{grid-column:2}}
+@media(max-width:620px){.identity-k8s{font-size:1.4rem}.identity-inner{gap:9px}.identity-label{flex-basis:100%}.mission-grid{grid-template-columns:1fr}.network-emblem{width:110px;height:110px}.mission-copy{grid-column:auto}.epik8s-doc-actions{align-items:flex-start;flex-direction:column;gap:12px}}

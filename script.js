@@ -4,14 +4,14 @@ const copy = {
     heroEyebrow:'INFN-A CONTROLS NETWORK · OPEN SOFTWARE',heroLine1:'Controls',heroLine2:'that connect.',
     heroLead:'From a device in the machine to a view in the control room: reusable EPICS software and EPIK8S make accelerator systems easier to build, deploy and share.',
     exploreEpik8s:'Explore EPIK8S',viewCode:'Explore the code',heroNote:'An open software space connected to the INFN-A EPICS controls network.',
-    heroFoot:'Software, shared practice and operational context for accelerator facilities.',identityLabel:'TWO CONNECTED LAYERS OF CONTROL',
+    heroFoot:'Software, shared practice and operational context for accelerator facilities.',identityLabel:'FROM EPICS TO EPIK8S',
     sectionMission:'THE NETWORK',missionTitle:'Shared controls knowledge moves everyone forward.',
     missionLead:'The INFN-A EPICS controls network promotes common guidelines, reusable code and the exchange of experience across the INFN community.',
     missionBody:'This GitHub organization is a practical home for IOC images, support modules, operator interfaces, EPIK8S charts and related software. It connects engineering work in facilities with tools that other teams can inspect and adapt.',
     networkLink:'Meet the INFN-A EPICS network',
     councilQuote:'The primary responsibility of this group, as outlined in the “Epics Council” document, is to provide and disseminate guidelines and best practices to the broader INFN community. This extends beyond sharing code and hardware catalogs; it also includes sharing experiences to prevent the duplication of efforts and ensure efficient resource utilization.',
     councilCredit:'EPICS Council · INFN-A controls network',
-    stackTitle:'Describe once. Deploy with confidence.',stackLead:'EPIK8S uses a declarative beamline configuration and GitOps workflow to bring EPICS IOCs and supporting services into Kubernetes.',
+    stackTitle:'Describe once. Deploy with confidence.',stackLead:'EPIK8S uses a declarative beamline configuration and GitOps workflow to bring EPICS IOCs and supporting services into Kubernetes.',quickStartCta:'Quick start',architectureCta:'Architecture & manuals',
     flowConfig:'Beamline YAML',flowConfigBody:'Devices, IOCs and services',flowTemplatesBody:'Templates and charts',flowGitopsBody:'GitOps synchronization',flowRuntimeBody:'IOCs and services',flowRoom:'Control room',flowRoomBody:'Operational interfaces',flowNote:'Conceptual overview of the architecture described in the EPIK8S paper.',
     stackReason1:'REPRODUCIBLE',stackH1:'Configuration in Git',stackP1:'Beamline changes can be reviewed, traced and applied from declared configuration.',
     stackReason2:'REUSABLE',stackH2:'Shared IOC building blocks',stackP2:'Container images, support definitions and charts help teams reuse tested patterns.',
@@ -27,7 +27,7 @@ const copy = {
     presentationsLabel:'PRESENTATIONS',presentationsTitle:'EPIK8S presentations',presentationsBody:'Training and workshop material from the LNF DA Control Group.',trainingSlides:'EPIK8S training slides',workshopSlides:'CCR 2024 workshop',
     conferenceTalksLabel:'CONFERENCE PRESENTATIONS',conferenceTalksTitle:'EPIK8S in the community',conferenceTalksLead:'Talks tracing the project from control as a service to connected operational knowledge.',
     talk2024Event:'INFN Computing Workshop · Palau · 23 May 2024',talk2025Event:'EPICS Collaboration Meeting · ISIS, UK · 9 April 2025',talk2026Event:'INFN National Computing Conference, CSN5 · 21 October 2026',
-    docsLabel:'DOCUMENTATION',docsTitle:'Build on the sources',docsBody:'Official EPICS documentation, the EPIK8S project page and the main INFN IOC repository.',epicsDocs:'EPICS documentation',epik8sDocs:'EPIK8S project page',iocDocs:'INFN IOC repository',
+    docsLabel:'DOCUMENTATION',docsTitle:'Build on the sources',docsBody:'Official EPICS documentation, the new EPIK8S guide and the main INFN IOC repository.',epicsDocs:'EPICS documentation',epik8sDocs:'EPIK8S guide',iocDocs:'INFN IOC repository',
     sectionArgus:'A CONNECTED ECOSYSTEM',argusTitle:'From live controls to lasting knowledge.',
     argusBody:'EPIK8S deploys and operates EPICS controls. ARGUS Knowledge Hub connects the equipment, configuration, incidents, activities and documents around those systems for accelerator control room teams.',
     argusImport:'ARGUS can import EPIK8s beamline configuration and help IOC engineers inspect templates, draft entries and check them before deployment.',discoverArgus:'Discover ARGUS',iocGuide:'IOC engineer guide',
@@ -40,14 +40,14 @@ const copy = {
     heroEyebrow:'RETE CONTROLLI INFN-A · SOFTWARE APERTO',heroLine1:'Controlli',heroLine2:'che connettono.',
     heroLead:'Dal dispositivo nella macchina alla vista in sala controllo: software EPICS riusabile ed EPIK8S rendono i sistemi per acceleratori più semplici da costruire, distribuire e condividere.',
     exploreEpik8s:'Scopri EPIK8S',viewCode:'Esplora il codice',heroNote:'Uno spazio software aperto collegato alla Rete Controlli EPICS di INFN-A.',
-    heroFoot:'Software, pratiche condivise e contesto operativo per le infrastrutture acceleratrici.',identityLabel:'DUE LIVELLI DI CONTROLLO CONNESSI',
+    heroFoot:'Software, pratiche condivise e contesto operativo per le infrastrutture acceleratrici.',identityLabel:'DA EPICS A EPIK8S',
     sectionMission:'LA RETE',missionTitle:'Condividere la conoscenza sui controlli fa avanzare tutti.',
     missionLead:'La Rete Controlli EPICS di INFN-A promuove linee guida comuni, codice riusabile e scambio di esperienze nella comunità INFN.',
     missionBody:'Questa organizzazione GitHub raccoglie immagini IOC, moduli di supporto, interfacce operative, chart EPIK8S e software collegato. Mette in relazione il lavoro nelle infrastrutture con strumenti che altri gruppi possono studiare e adattare.',
     networkLink:'Scopri la Rete Controlli EPICS di INFN-A',
     councilQuote:'La responsabilità principale di questo gruppo, come delineato nel documento “Epics Council”, è fornire e diffondere linee guida e buone pratiche alla comunità INFN. Oltre alla condivisione di codice e cataloghi hardware, questo comprende lo scambio di esperienze per evitare duplicazioni e usare le risorse in modo efficiente.',
     councilCredit:'EPICS Council · Rete Controlli INFN-A',
-    stackTitle:'Descrivi una volta. Distribuisci con fiducia.',stackLead:'EPIK8S usa una configurazione dichiarativa della beamline e un flusso GitOps per distribuire IOC EPICS e servizi di supporto su Kubernetes.',
+    stackTitle:'Descrivi una volta. Distribuisci con fiducia.',stackLead:'EPIK8S usa una configurazione dichiarativa della beamline e un flusso GitOps per distribuire IOC EPICS e servizi di supporto su Kubernetes.',quickStartCta:'Guida rapida',architectureCta:'Architettura e manuali',
     flowConfig:'YAML della beamline',flowConfigBody:'Dispositivi, IOC e servizi',flowTemplatesBody:'Template e chart',flowGitopsBody:'Sincronizzazione GitOps',flowRuntimeBody:'IOC e servizi',flowRoom:'Sala controllo',flowRoomBody:'Interfacce operative',flowNote:'Schema concettuale dell’architettura descritta nell’articolo su EPIK8S.',
     stackReason1:'RIPRODUCIBILE',stackH1:'Configurazione in Git',stackP1:'Le modifiche alla beamline possono essere verificate, tracciate e applicate dalla configurazione dichiarata.',
     stackReason2:'RIUSABILE',stackH2:'Componenti IOC condivisi',stackP2:'Immagini container, definizioni di supporto e chart aiutano a riusare soluzioni collaudate.',
@@ -63,7 +63,7 @@ const copy = {
     presentationsLabel:'PRESENTAZIONI',presentationsTitle:'Presentazioni EPIK8S',presentationsBody:'Materiale formativo e workshop del gruppo Controlli della DA di LNF.',trainingSlides:'Slide della formazione EPIK8S',workshopSlides:'Workshop CCR 2024',
     conferenceTalksLabel:'PRESENTAZIONI A CONFERENZE',conferenceTalksTitle:'EPIK8S nella comunità',conferenceTalksLead:'Interventi che raccontano il progetto, dal controllo come servizio alla conoscenza operativa connessa.',
     talk2024Event:'Workshop sul Calcolo nell’INFN · Palau · 23 maggio 2024',talk2025Event:'EPICS Collaboration Meeting · ISIS, Regno Unito · 9 aprile 2025',talk2026Event:'Conferenza Nazionale sul Calcolo nella CSN5 · 21 ottobre 2026',
-    docsLabel:'DOCUMENTAZIONE',docsTitle:'Parti dalle fonti',docsBody:'Documentazione ufficiale EPICS, pagina del progetto EPIK8S e repository principale degli IOC INFN.',epicsDocs:'Documentazione EPICS',epik8sDocs:'Pagina del progetto EPIK8S',iocDocs:'Repository IOC INFN',
+    docsLabel:'DOCUMENTAZIONE',docsTitle:'Parti dalle fonti',docsBody:'Documentazione ufficiale EPICS, nuova guida EPIK8S e repository principale degli IOC INFN.',epicsDocs:'Documentazione EPICS',epik8sDocs:'Guida EPIK8S',iocDocs:'Repository IOC INFN',
     sectionArgus:'UN ECOSISTEMA CONNESSO',argusTitle:'Dai controlli in funzione alla conoscenza che resta.',
     argusBody:'EPIK8S distribuisce e gestisce i controlli EPICS. ARGUS Knowledge Hub collega apparati, configurazioni, problemi, attività e documenti che li riguardano per i gruppi delle sale controllo degli acceleratori.',
     argusImport:'ARGUS può importare la configurazione delle beamline EPIK8s e aiutare gli ingegneri IOC a consultare i template, preparare le voci e verificarle prima del deployment.',discoverArgus:'Scopri ARGUS',iocGuide:'Guida per ingegneri IOC',
@@ -88,6 +88,10 @@ function setLanguage(value) {
       argusRoot: `https://infn-argus.github.io/?lang=${lang}`
     };
     link.href = dest[link.dataset.external];
+  });
+  document.querySelectorAll('[data-epik8s-docs]').forEach(link => {
+    const anchor = link.dataset.epik8sDocs;
+    link.href = `./epik8s/?lang=${lang}${anchor ? '#' + anchor : ''}`;
   });
   document.querySelector('.menu-toggle').setAttribute('aria-label', lang === 'it' ? 'Apri menu' : 'Open menu');
   try { localStorage.setItem('infn-epics-site-language', lang); } catch (_) {}
