@@ -18,6 +18,9 @@ Sources for the technical descriptions:
 - [ARGUS EPIK8s import and IOC engineer manuals](https://infn-argus.github.io/argus-knowledge-hub/en/manuals/)
 - [EPIK8S project page and presentation files](https://confluence.infn.it/spaces/LDCG/pages/250085378/EPIK8S)
 - [EPICS official documentation](https://docs.epics-controls.org/en/latest/)
+- [EPIK8S at the 2024 INFN Computing Workshop](https://agenda.infn.it/event/40160/contributions/230228/)
+- [EPIK8S at the 2025 EPICS Collaboration Meeting](https://indico.stfc.ac.uk/event/1233/contributions/8395/)
+- [EPIK8S and ARGUS at the 2026 CSN5 Computing Conference](https://agenda.infn.it/event/52618/contributions/302965/)
 
 Visual marks: `assets/epics-official.svg` is the official EPICS logo from
 [epics-controls.org](https://epics-controls.org/wp-content/uploads/2018/07/EPICS_black_blue_logo_rgb_crop_web_v03.svg).
