@@ -32,3 +32,7 @@ site maintainer. `assets/epics-official.svg` is the official EPICS logo from
 [INFN Confluence project page](https://confluence.infn.it/spaces/LDCG/pages/250085378/EPIK8S).
 
 Site source is Apache-2.0, matching the main `infn-epics-ioc` repository.
+
+The LNF control interface screenshots in `assets/lnf-*.webp` were supplied by
+the site maintainer and cropped without changing interface content. They show
+examples captured at a point in time, not current machine status.
