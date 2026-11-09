@@ -36,5 +36,5 @@ Site source is Apache-2.0, matching the main `infn-epics-ioc` repository.
 The LNF control interface screenshots in `assets/lnf-*.webp` and
 `assets/lnf-sparc-*.png` and `assets/lnf-dafne-ring.png` were supplied by the site maintainer. The WebP
 versions were cropped without changing interface content; the PNGs are the
-original ring, control panel and RF graph screenshots. They show examples captured
+original ring (REDD replacement, 9 November 2026), control panel and RF graph screenshots. They show examples captured
 at a point in time, not current machine status.
