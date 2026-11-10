@@ -38,3 +38,8 @@ The LNF control interface screenshots in `assets/lnf-*.webp` and
 cropped without changing interface content; the PNGs are the original REDD
 accumulator, SPARC_LAB control panel and RF graph screenshots. They show examples
 captured at a point in time, not current machine status.
+
+The EuAPS (INFN-LNF) and ELI-NP (Romania) gallery uses further screenshots
+supplied by the site maintainer. The EuAPS views are shown side by side; the
+four ELI-NP interface views were cropped from one composite screenshot and
+arranged as a grid. Each thumbnail opens its original screenshot.
